@@ -108,7 +108,7 @@ const ContactSection = () => {
         </ScrollReveal>
 
         {/* Other Contacts Grid */}
-        <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-4 sm:gap-6">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4 sm:gap-6">
           {contacts.map((contact, index) => (
             <ScrollReveal key={contact.label} delay={index * 100}>
               <a

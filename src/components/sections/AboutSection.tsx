@@ -111,7 +111,7 @@ const AboutSection = () => {
                 <p className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-display font-bold text-primary mb-2">
                   <Counter end={stat.value} suffix={stat.suffix} />
                 </p>
-                <p className="text-xs sm:text-sm md:text-base text-muted-foreground font-medium">
+                <p className="flex justify-center items-center min-h-[48px] text-xs sm:text-sm md:text-base text-muted-foreground font-medium">
                   {stat.label}
                 </p>
               </div>

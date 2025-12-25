@@ -19,7 +19,7 @@ const Footer = () => {
   return (
     <footer className="gradient-dark text-primary-foreground">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 2xl:px-16 py-12 sm:py-16 lg:py-20">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-10 xl:gap-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 lg:gap-10 xl:gap-12">
           {/* Column 1 - Logo and Description */}
           <div className="space-y-4 sm:space-y-5">
             <div className="flex items-center gap-3">

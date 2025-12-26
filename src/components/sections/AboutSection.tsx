@@ -67,7 +67,7 @@ const AboutSection = () => {
                 <div className="absolute inset-0 bg-gradient-to-t from-accent/50 to-transparent" />
               </div>
               {/* Floating card */}
-              <div className="absolute -bottom-6 -right-6 sm:-right-10 glass-effect rounded-xl p-4 sm:p-6 shadow-xl animate-float">
+              <div className="absolute -bottom-6 -right-0 sm:-right-4 lg:-right-10 glass-effect rounded-xl p-4 sm:p-6 shadow-xl animate-float">
                 <div className="flex items-center gap-3">
                   <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full gradient-primary flex items-center justify-center">
                     <TrendingUp className="w-5 h-5 sm:w-6 sm:h-6 text-primary-foreground" />
